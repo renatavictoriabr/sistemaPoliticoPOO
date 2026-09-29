@@ -18,6 +18,16 @@ const presidente = new Presidente(
 	"Saúde e Trabalho"],
     38
 );
+console.log("DADOS DO PRESIDENTE (br)");
+console.log("Nome:", presidente.getNome());
+console.log("Partido:", presidente.getPartido());
+console.log("Esfera:", presidente.getEsfera());
+console.log("Poder:", presidente.getPoder());
+console.log("Local de trabalho:", presidente.getLocalTrabalho());
+console.log("Endereço:", presidente.getEnderecoTrabalho());
+console.log("Remuneração:", presidente.getRemuneracao());
+console.log("Projetos:", presidente.getProjetos());
+console.log("Quantidade de ministros:", presidente.getQuantidadeMinistros());
 
 
 const governadorPE = new Governador(
@@ -37,6 +47,18 @@ const governadorPE = new Governador(
     "Pernambuco",
     30
 );
+    console.log("GOVERNADOR (pe)");
+    console.log("Nome:", governadorPE.getNome());
+    console.log("Partido:", governadorPE.getPartido());
+    console.log("Esfera:", governadorPE.getEsfera());
+    console.log("Poder:", governadorPE.getPoder());
+    console.log("Local de trabalho:", governadorPE.getLocalTrabalho());
+    console.log("Endereço:", governadorPE.getEnderecoTrabalho());
+    console.log("Remuneração:", governadorPE.getRemuneracao());
+    console.log("Projetos:", governadorPE.getProjetos());
+    console.log("Estado:", governadorPE.getEstado());
+    console.log("Quantidade de secretários:", governadorPE.getQuantidadeSecretarios());
+	
 
 const governadorBA = new Governador(
     "Jerônimo Rodrigues",
@@ -52,6 +74,17 @@ const governadorBA = new Governador(
     "Bahia",
     25
 );
+console.log("GOVERNADOR (ba)");
+    console.log("Nome:", governadorBA.getNome());
+    console.log("Partido:", governadorBA.getPartido());
+    console.log("Esfera:", governadorBA.getEsfera());
+    console.log("Poder:", governadorBA.getPoder());
+    console.log("Local de trabalho:", governadorBA.getLocalTrabalho());
+    console.log("Endereço:", governadorBA.getEnderecoTrabalho());
+    console.log("Remuneração:", governadorBA.getRemuneracao());
+    console.log("Projetos:", governadorBA.getProjetos());
+    console.log("Estado:", governadorBA.getEstado());
+    console.log("Quantidade de secretários:", governadorBA.getQuantidadeSecretarios());
 
 
 const deputadoEstadualPE1 = new DeputadoEstadual(
@@ -69,6 +102,17 @@ const deputadoEstadualPE1 = new DeputadoEstadual(
     ["Comissão de Assuntos Municipais",
 	"Comissão de Desenvolvimento Econômico e Turismo"]
 );
+console.log("Nome:", deputadoEstadualPE1.getNome());
+console.log("Partido:", deputadoEstadualPE1.getPartido());
+console.log("Esfera:", deputadoEstadualPE1.getEsfera());
+console.log("Poder:", deputadoEstadualPE1.getPoder());
+console.log("Local de trabalho:", deputadoEstadualPE1.getLocalTrabalho());
+console.log("Endereço:", deputadoEstadualPE1.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoEstadualPE1.getRemuneracao());
+console.log("Projetos:", deputadoEstadualPE1.getProjetos());
+console.log("Estado:", deputadoEstadualPE1.getEstado());
+console.log("Comissões:", deputadoEstadualPE1.getComissoes());
+
 
 const deputadoEstadualPE2 = new DeputadoEstadual(
     "Rosa Amorin",
@@ -83,6 +127,19 @@ const deputadoEstadualPE2 = new DeputadoEstadual(
     ["Comissão de meio ambiente",
 	"Cidadania, Direitos humanos e participação popular"]
 );
+console.log("deputada e. rosa amorim");
+
+console.log("Nome:", deputadoEstadualPE2.getNome());
+console.log("Partido:", deputadoEstadualPE2.getPartido());
+console.log("Esfera:", deputadoEstadualPE2.getEsfera());
+console.log("Poder:", deputadoEstadualPE2.getPoder());
+console.log("Local de trabalho:", deputadoEstadualPE2.getLocalTrabalho());
+console.log("Endereço:", deputadoEstadualPE2.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoEstadualPE2.getRemuneracao());
+console.log("Projetos:", deputadoEstadualPE2.getProjetos());
+console.log("Estado:", deputadoEstadualPE2.getEstado());
+console.log("Comissões:", deputadoEstadualPE2.getComissoes());
+
 
 const deputadoEstadualPE3 = new DeputadoEstadual(
     "Cayo Albino",
@@ -97,6 +154,19 @@ const deputadoEstadualPE3 = new DeputadoEstadual(
     "Pernambuco",
     ["Membro titular da comissão de constituição, legislação e justiça"]
 );
+console.log("deputado e. cayo albino");
+
+console.log("Nome:", deputadoEstadualPE3.getNome());
+console.log("Partido:", deputadoEstadualPE3.getPartido());
+console.log("Esfera:", deputadoEstadualPE3.getEsfera());
+console.log("Poder:", deputadoEstadualPE3.getPoder());
+console.log("Local de trabalho:", deputadoEstadualPE3.getLocalTrabalho());
+console.log("Endereço:", deputadoEstadualPE3.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoEstadualPE3.getRemuneracao());
+console.log("Projetos:", deputadoEstadualPE3.getProjetos());
+console.log("Estado:", deputadoEstadualPE3.getEstado());
+console.log("Comissões:", deputadoEstadualPE3.getComissoes());
+
 
 const deputadoEstadualBA1 = new DeputadoEstadual(
     "Alex da Piatã",
@@ -111,6 +181,18 @@ const deputadoEstadualBA1 = new DeputadoEstadual(
     ["Biografias de patronos de escola",
 	"combate ao bulling"]
 );
+console.log("deputado e. alex da piatã (ba)");
+
+console.log("Nome:", deputadoEstadualBA1.getNome());
+console.log("Partido:", deputadoEstadualBA1.getPartido());
+console.log("Esfera:", deputadoEstadualBA1.getEsfera());
+console.log("Poder:", deputadoEstadualBA1.getPoder());
+console.log("Local de trabalho:", deputadoEstadualBA1.getLocalTrabalho());
+console.log("Endereço:", deputadoEstadualBA1.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoEstadualBA1.getRemuneracao());
+console.log("Projetos:", deputadoEstadualBA1.getProjetos());
+console.log("Estado:", deputadoEstadualBA1.getEstado());
+console.log("Comissões:", deputadoEstadualBA1.getComissoes());
 
 const deputadoEstadualBA2 = new DeputadoEstadual(
     "Angelo Coronel Filho",
@@ -126,6 +208,18 @@ const deputadoEstadualBA2 = new DeputadoEstadual(
     ["Comissão de saúde e saneamento",
 	"Fianaças, orçamento, fiscalização e controle"]
 );
+console.log("deputado e. angelo coronel filho (ba)");
+
+console.log("Nome:", deputadoEstadualBA2.getNome());
+console.log("Partido:", deputadoEstadualBA2.getPartido());
+console.log("Esfera:", deputadoEstadualBA2.getEsfera());
+console.log("Poder:", deputadoEstadualBA2.getPoder());
+console.log("Local de trabalho:", deputadoEstadualBA2.getLocalTrabalho());
+console.log("Endereço:", deputadoEstadualBA2.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoEstadualBA2.getRemuneracao());
+console.log("Projetos:", deputadoEstadualBA2.getProjetos());
+console.log("Estado:", deputadoEstadualBA2.getEstado());
+conso
 
 const deputadoFederalPE1 = new DeputadoFederal(
     "André Ferreira",
@@ -139,6 +233,18 @@ const deputadoFederalPE1 = new DeputadoFederal(
 	"isenção de ipi para motoristas de aplicativo"],
     "Bancada regional, bancada do partido liberal e Frente parlamentar evangélica"
 );
+console.log("deputado f. andre ferreira");
+
+console.log("Nome:", deputadoFederalPE1.getNome());
+console.log("Partido:", deputadoFederalPE1.getPartido());
+console.log("Esfera:", deputadoFederalPE1.getEsfera());
+console.log("Poder:", deputadoFederalPE1.getPoder());
+console.log("Local de trabalho:", deputadoFederalPE1.getLocalTrabalho());
+console.log("Endereço:", deputadoFederalPE1.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoFederalPE1.getRemuneracao());
+console.log("Projetos:", deputadoFederalPE1.getProjetos());
+console.log("Bancada:", deputadoFederalPE1.getBancada());
+
 
 const deputadoFederalPE2 = new DeputadoFederal(
     "Maria Arraes",
@@ -154,6 +260,18 @@ const deputadoFederalPE2 = new DeputadoFederal(
     ],
     "Bancada regional, bancada da Solidariedade e federação e pautas sociais, direitos humanos e representatividade"
 );
+console.log("deputada f. maria arraes");
+
+console.log("Nome:", deputadoFederalPE2.getNome());
+console.log("Partido:", deputadoFederalPE2.getPartido());
+console.log("Esfera:", deputadoFederalPE2.getEsfera());
+console.log("Poder:", deputadoFederalPE2.getPoder());
+console.log("Local de trabalho:", deputadoFederalPE2.getLocalTrabalho());
+console.log("Endereço:", deputadoFederalPE2.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoFederalPE2.getRemuneracao());
+console.log("Projetos:", deputadoFederalPE2.getProjetos());
+console.log("Bancada:", deputadoFederalPE2.getBancada());
+
 
 const deputadoFederalPE3 = new DeputadoFederal(
     "Mendonça Filho",
@@ -167,6 +285,18 @@ const deputadoFederalPE3 = new DeputadoFederal(
 	"autonomia de banco central"],
     "bancada pernambucana, bancada da união Brasil e gestão pública e a economia de mercado"
 );
+console.log("deputado f. mendonça filho");
+
+console.log("Nome:", deputadoFederalPE3.getNome());
+console.log("Partido:", deputadoFederalPE3.getPartido());
+console.log("Esfera:", deputadoFederalPE3.getEsfera());
+console.log("Poder:", deputadoFederalPE3.getPoder());
+console.log("Local de trabalho:", deputadoFederalPE3.getLocalTrabalho());
+console.log("Endereço:", deputadoFederalPE3.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoFederalPE3.getRemuneracao());
+console.log("Projetos:", deputadoFederalPE3.getProjetos());
+console.log("Bancada:", deputadoFederalPE3.getBancada());
+
 
 const deputadoFederalBA1 = new DeputadoFederal(
     "Alice Portugal",
@@ -180,6 +310,18 @@ const deputadoFederalBA1 = new DeputadoFederal(
 	"combate a LGBTfobia no futebol"],
     "Bancada baiana, bancada da federação Brasil da esperança e bancada feminina"
 );
+console.log("deputada f. alice portugal");
+
+console.log("Nome:", deputadoFederalBA1.getNome());
+console.log("Partido:", deputadoFederalBA1.getPartido());
+console.log("Esfera:", deputadoFederalBA1.getEsfera());
+console.log("Poder:", deputadoFederalBA1.getPoder());
+console.log("Local de trabalho:", deputadoFederalBA1.getLocalTrabalho());
+console.log("Endereço:", deputadoFederalBA1.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoFederalBA1.getRemuneracao());
+console.log("Projetos:", deputadoFederalBA1.getProjetos());
+console.log("Bancada:", deputadoFederalBA1.getBancada());
+
 
 const deputadoFederalBA2 = new DeputadoFederal(
     "Daniel Almeida",
@@ -193,6 +335,18 @@ const deputadoFederalBA2 = new DeputadoFederal(
 	"atuação de defesa do consumidor"],
     "Bancada baiana, bancada da federação Brasil da esperança e bancada frene parlamentar da cultura"
 );
+console.log("deputado f. daniel almeida");
+
+console.log("Nome:", deputadoFederalBA2.getNome());
+console.log("Partido:", deputadoFederalBA2.getPartido());
+console.log("Esfera:", deputadoFederalBA2.getEsfera());
+console.log("Poder:", deputadoFederalBA2.getPoder());
+console.log("Local de trabalho:", deputadoFederalBA2.getLocalTrabalho());
+console.log("Endereço:", deputadoFederalBA2.getEnderecoTrabalho());
+console.log("Remuneração:", deputadoFederalBA2.getRemuneracao());
+console.log("Projetos:", deputadoFederalBA2.getProjetos());
+console.log("Bancada:", deputadoFederalBA2.getBancada());
+
 
 const senadorPE1 = new Senador(
     "Humberto Costa",
@@ -207,6 +361,18 @@ const senadorPE1 = new Senador(
     "Pernambuco",
     2019
 );
+console.log("SENADOR: HUMBERTO costa");
+
+console.log("Nome:", senadorPE1.getNome());
+console.log("Partido:", senadorPE1.getPartido());
+console.log("Esfera:", senadorPE1.getEsfera());
+console.log("Poder:", senadorPE1.getPoder());
+console.log("Local de trabalho:", senadorPE1.getLocalTrabalho());
+console.log("Endereço:", senadorPE1.getEnderecoTrabalho());
+console.log("Remuneração:", senadorPE1.getRemuneracao());
+console.log("Projetos:", senadorPE1.getProjetos());
+console.log("Estado:", senadorPE1.getEstado());
+console.log("Ano da eleição:", senadorPE1.getAnoEleicao());
 
 const senadorPE2 = new Senador(
     "Fernando Dueire",
@@ -221,6 +387,19 @@ const senadorPE2 = new Senador(
     "Pernambuco",
     2019
 );
+console.log("senador: fernando dueire");
+
+console.log("Nome:", senadorPE2.getNome());
+console.log("Partido:", senadorPE2.getPartido());
+console.log("Esfera:", senadorPE2.getEsfera());
+console.log("Poder:", senadorPE2.getPoder());
+console.log("Local de trabalho:", senadorPE2.getLocalTrabalho());
+console.log("Endereço:", senadorPE2.getEnderecoTrabalho());
+console.log("Remuneração:", senadorPE2.getRemuneracao());
+console.log("Projetos:", senadorPE2.getProjetos());
+console.log("Estado:", senadorPE2.getEstado());
+console.log("Ano da eleição:", senadorPE2.getAnoEleicao());
+
 
 const senadorBA = new Senador(
     "Angelo Coronel",
@@ -235,6 +414,18 @@ const senadorBA = new Senador(
     "Bahia",
     2019
 );
+console.log("senador angelo coronel");
+
+console.log("Nome:", senadorBA.getNome());
+console.log("Partido:", senadorBA.getPartido());
+console.log("Esfera:", senadorBA.getEsfera());
+console.log("Poder:", senadorBA.getPoder());
+console.log("Local de trabalho:", senadorBA.getLocalTrabalho());
+console.log("Endereço:", senadorBA.getEnderecoTrabalho());
+console.log("Remuneração:", senadorBA.getRemuneracao());
+console.log("Projetos:", senadorBA.getProjetos());
+console.log("Estado:", senadorBA.getEstado());
+console.log("Ano da eleição:", senadorBA.getAnoEleicao());
 
 console.log("presidentee");
 console.log(presidente.mandato());
